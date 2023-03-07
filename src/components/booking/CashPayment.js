@@ -1,7 +1,10 @@
+import Footer from "components/shared/Footer";
+
 function CashPayment() {
   return (
     <div>
-      <p>Assalam-o-alaikum wa rahmat-ulllah-e-wa barakatuhu</p>
+      <p className="font-bold">Allah-u-akbar</p>
+      <Footer/>
     </div>
   );
 }
