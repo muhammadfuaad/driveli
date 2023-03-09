@@ -15,3 +15,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@layer components {
+  /* generic_heading */
+  .footer-heading {
+    @apply font-bold text-[1.4rem] tracking-[0px] leading-[4rem] text-medium-black;
+  }
+  .footer-link {
+    @apply font-medium text-[1.2rem] tracking-[0px] leading-[2.6rem] text-medium-black;
+  }
+}
