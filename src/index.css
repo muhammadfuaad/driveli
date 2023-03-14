@@ -17,6 +17,9 @@ code {
 }
 
 @layer components {
+  .card-heading {
+    @apply font-semibold text-[1.8rem] tracking-[-0.45px] leading-[2rem] text-dark-black
+  }
   /* generic_heading */
   .footer-heading {
     @apply font-bold text-[1.4rem] tracking-[0px] leading-[4rem] text-medium-black;

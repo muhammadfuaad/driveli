@@ -1,10 +1,20 @@
 import Footer from "components/shared/Footer";
 import DesktopHeader1 from "../shared/DesktopHeader1";
+import MyOrderCard from "./MyOrderCard";
+import SecureCheckoutCard from './SecureCheckoutCard';
+import YourDetailsCard from "./YourDetailsCard";
 
 function CashPayment() {
   return (
-    <div>
+    <div className="bg-fa">
       <DesktopHeader1/>
+      <div className="flex gap-12 px-48">
+        <div className="w-[70%]">
+          <SecureCheckoutCard/>
+          <YourDetailsCard/>
+        </div>
+        <div className="w-[30%]"><MyOrderCard/></div>
+      </div>
       <div className="flex flex-col px-48">
         <p className="font-bold text-[2.8rem] tracking-[-0.7px] leading-[3.4rem] text-dark-black mb-8">Search by Location</p>
         <div className="flex">
